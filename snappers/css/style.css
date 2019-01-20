@@ -161,6 +161,22 @@ footer small {
   background-size: 100% auto;
 }
 
+#photograph {
+  background-image: url(../images/bg-photograph.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: 100% auto;
+}
+
+#video {
+  background-image: url(../images/bg-video.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: 100% auto;
+}
+
 .main-center {
   width: 940px;
   margin: 0 auto;
@@ -258,4 +274,14 @@ table {
 
 a img:hover {
   opacity: 0.8;
+}
+
+#photograph .photograph-list li {
+  float: left;
+  list-style: none;
+  margin: 0 20px 15px 0;
+}
+
+#photograph .photograph-list li:nth-child(3n) {
+  margin-right: 0;
 }
